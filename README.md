@@ -109,5 +109,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Always follow ethical guidelines and comply with all relevant laws regarding data privacy and security.
 
 ---
-
-With this README, your project now includes important information about installation, usage, and the ethical considerations of using a keylogger.
